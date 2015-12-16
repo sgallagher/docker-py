@@ -19,6 +19,7 @@ container_id = cli.create_container(
     })
 )
 ```
+The key in the `binds` dictionary is the path on the host filesystem. The `bind` attribute indicates where it should be mounted within the container.
 
 You can alternatively specify binds as a list. This code is equivalent to the
 example above:
